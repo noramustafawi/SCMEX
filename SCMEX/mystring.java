@@ -20,7 +20,7 @@ public class mystring {
    if (Temp[i] >= 'A' && Temp[i] <= 'Z') 
     Temp[i]= (char)(Temp[i] - 'A' + 'a')   ; 
     
-   if (Temp[i] >= 'a' && Temp[i] <= 'z') 
+   else if (Temp[i] >= 'a' && Temp[i] <= 'z') 
     Temp[i]= (char)(Temp[i] - 'a' + 'A')   ; 
     
 Text += Temp[i]; 
